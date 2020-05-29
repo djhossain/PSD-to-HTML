@@ -1,0 +1,212 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: 'PT Sans', sans-serif;
+}
+a{
+	color: #010101;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+
+.section-head{
+	padding-top: 118px;
+	width: 60%;
+}
+.section-head h3{
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px; 
+}
+.section-head h4{
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+}
+ 
+ /* common css ens */
+
+ /* navbar section starts */
+ #nav_bar{
+ 	background-color: #fcdb00;
+ 	position: sticky;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 9;
+ }
+
+ #nav_bar .container .navbar .navbar-brand{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+ #nav_bar .container .navbar .navbar-brand span{
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	margin-left: 10px;
+ }
+#nav_bar .container .navbar .navbar-nav .nav-item{
+	padding-left: 72px;
+}
+#nav_bar .container .navbar .navbar-nav .nav-item a{
+	font-size: 20px;
+	font-weight: bold;
+	transition: all linear 0.3s;
+}
+#nav_bar .container .navbar .navbar-nav .nav-item a:hover{
+	color: white;
+	background-color: rgba(10, 10, 10, 0.5);
+	border-radius: 10%;
+}
+/* navbar section ends */
+
+/* banner section starts */
+#banner{
+	background-color: #fcdb00;
+	padding: 70px 0;
+}/* 
+#banner .container  .carousel-item {
+	justify-content: flex-end;
+} */
+#banner .container .carousel-inner  .carousel-item .row .content p{
+	font-size: 16px;
+	color: #555555;
+	margin: 25px 0;
+	margin-right: 110px;
+}
+#banner .container .carousel-inner  .carousel-item .row .content .icons{
+	margin-top: 20px;
+}
+#banner .container .carousel-inner  .carousel-item .row .content .icons i{
+	font-size: 40px;
+	margin-right: 20px;
+}
+#banner .container .carousel-inner  .carousel-item .row .phone .phone-white{
+	margin: 20px auto;
+	height: 468px;
+	width: 315px;
+	background-color: white;
+	border-radius: 19px;
+	position: relative;
+}
+#banner .container .carousel-inner  .carousel-item .row .phone .phone-screen{
+	height: 382px;
+	width: 288px;
+	background-color: #010101;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#banner .container  .carousel-item .phone .phone-screen .brand{
+	/* width: 100%; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner .container  .carousel-item .phone .phone-screen .brand span{
+	padding-left: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fcdb00;
+}
+#banner .container .carousel-indicators{
+	bottom: -80px;
+}
+#banner .container .carousel-indicators li{
+	height: 14px; 
+	width: 14px;
+	border-radius: 50%;
+	margin: 30px 5px;
+}
+#features .content{
+	margin: 90px 0;
+}
+#features .row .col-3{
+	text-align: center;
+}
+#features .row .col-3 i{
+	font-size: 40px;
+}
+#features .row .col-9 .head{
+	font-size: 22px;
+	font-weight: bold;
+	color: #010101;
+}
+#features .row .col-9 .sub-head{
+	font-size: 16px;
+	color: #555555;
+}
+/* features section ends */
+
+/* support section starts */
+#support{
+	background-color: #010101;
+}
+#support .container .section-head h3 {
+	color: #fcdb00;
+}
+
+#support .container .section-head h4 {
+	color: #898989;
+}
+#support .container .contact{
+	margin: 40px 0;
+}
+#support .container .contact .row{
+	width: 60%;
+	margin: 0 auto;
+}
+#support .container .contact input[type="text"]{
+	width: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	padding: 0 25px;
+}
+#support .container .contact input[type="submit"]{
+	width: 100%;
+	height: 48px;
+	border: 1px solid #fcdb00;
+	border-radius: 4px;
+	background-color: #fcdb00;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#support .container .social i{
+	width: 36px;
+	height: 36px;
+	border-radius: 6px;
+	background-color: #fcdb00;
+	font-size: 30px;
+	line-height: 36px;
+	margin: 0 16px;
+} 
+#support .container .footer{
+	padding: 130px 0;
+} 
+#support .container .footer .col-lg-4 .address{
+	width: 60%;
+}
+#support .container .footer .col-lg-4 .address span{
+	display: block;
+	color: #ffffff;
+}
+#support .container .footer .col-lg-8 .col-md-3 a{
+	color: #ffffff;
+	display: block;
+}
+/* ends */

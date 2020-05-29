@@ -1,0 +1,302 @@
+/* navbar starts */
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+li,ol{
+	list-style: none;
+}
+
+#nav_bar .container .navbar .logo {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	color: #2d3950;
+}
+#nav_bar .container .navbar .logo img{
+	margin-right: 24px;
+}
+#nav_bar .container .navbar .navbar-nav a{
+	color: #222222;
+	font-size: 24px;
+	padding: 0 25px;
+}
+
+#nav_bar .navbar-toggler .navbar-toggler-icon{
+	color: #7ed0e8;
+	font-size: 50px;
+	font-weight: 200;
+	padding-top: 15px;
+} 
+/* navbar ends */
+
+/* banner starts */
+
+#banner .container-fluid{
+	background: url('../images/banner/banner_bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 220px;
+	padding-bottom: 90px;
+	color: white;
+}
+#banner .container-fluid h3{
+	font-size: 120px;
+	font-weight: bold;
+	border-bottom: 2px solid #15a4fa;
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;
+	padding-right: 9%;
+	padding-left: 9%;
+	margin-bottom: 35px;
+}
+#banner .container-fluid p{
+	font-size: 20px;
+
+}
+#banner .container-fluid .btn-lg{
+	border-color: #15a4fa;
+	color: white;
+	font-size: 18px;
+	margin: 0 auto;
+	margin-top: 65px;
+	margin-bottom: 180px;
+	display: block;
+}
+#banner .container-fluid i{
+	color: white;
+	font-size: 18px;
+}
+/* banner section ends */
+
+/* about section starts */
+
+#about {
+	padding-top: 80px;
+	padding-bottom: 110px;
+	background-color: #f6f9f9;
+}
+#about .container h3{
+	font-size: 40px;
+	color: #2d3950;
+	margin-bottom: 25px;
+}
+#about .container p{
+	font-size: 20px;
+	color: #999999;
+}
+/* about sectio ends */
+
+/* services section starts */
+
+#services{
+	padding: 65px 0;
+}
+#services .container .row .col-md-4 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#services .container .row .col-md-4 .icon{
+	background: linear-gradient(to right , #48baff 0%, #48baff 50%, #5fc3ff 50%, #5fc3ff 100%);
+	height: 100px;
+	width: 100px;
+	color: white;
+	margin: 0 auto;
+	text-shadow: 1px 1px 2px #4389b4;
+}
+#services .container .row .col-md-4 .i_mobile{
+	font-size: 51px;
+	line-height: 2;
+}
+#services .container .row .col-md-4 .i_plane{
+	font-size:40px;
+	line-height: 2.5;
+}
+#services .container .row .col-md-4 .i_bullhorn{
+	font-size: 35px;
+	line-height: 2.8;
+}
+
+#services .container .row .col-md-4 h4{
+	font-size: 22px;
+	color: #2d3950;
+	margin-top: 33px;
+	margin-bottom: 22px;
+}
+#services .container .row .col-md-4 p{
+	font-size: 15px;
+	color: #a1a1a1;
+}
+/* services section ends */
+
+/* portfolio section starts */
+
+#portfolio{
+	background-color: #f6f9f9;
+	padding: 80px 0;
+}
+
+#portfolio .container .portfolio_head h3{
+	font-size: 41px;
+	color: #2d3950;
+}
+#portfolio .container .portfolio_head p{
+	font-size: 15px;
+	color: #909090;
+}
+#portfolio .container .row .col-md-4{
+	padding:  15px;
+}
+
+#portfolio .container .row .g1{
+	background: url('../images/gallery/img1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#portfolio .container .row .g2{
+	background: url('../images/gallery/img2.jpg');
+		background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#portfolio .container .row .g3{
+	background: url('../images/gallery/img3.jpg');
+		background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#portfolio .container .row .g4{
+	background: url('../images/gallery/img4.jpg');
+		background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#portfolio .container .row .g5{
+	background: url('../images/gallery/img5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#portfolio .container .row .g6{
+	background: url('../images/gallery/img6.jpg');
+		background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+#portfolio .container .row .overlay a{
+	font-size: 15px;
+	color: white;
+	border-radius: 3px;
+	border: 1px solid white;
+	padding: 13px;	
+}
+
+#portfolio .container .row .overlay{
+	text-align: center;
+	width: 0%;
+	padding: 32% 0;
+	height: 100%;
+	background-color: rgba(21, 164, 250, 0.9);
+	visibility: hidden;
+	transition: all linear 0.1s;
+}
+#portfolio .container .row .col-md-4:hover .overlay{
+	visibility: visible;
+	width: 100%;
+}
+/* portfolio section ends */
+
+/* contact section starts */
+
+#contact{
+	background: url('../images/form/contact_bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+#contact .container-fluid{
+	background: rgba(45, 57, 80, 0.8);
+	padding-top: 75px;
+	padding-bottom: 110px;
+}
+
+#contact .container-fluid h3{
+	font-size: 41px;
+	margin-bottom: 
+}
+#contact .container-fluid p{
+	font-size: 15px;
+	color: #999999;
+	margin-bottom: 51px;
+}
+#contact .container-fluid form{
+	width: 40%;
+	margin: 0 auto;
+}
+#contact .container-fluid form .input{
+	background: none;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	width: 100%;
+	display: block;
+	margin: 20px auto;
+	padding: 20px 25px;
+}
+#contact .container-fluid form .message:placeholder{
+	vertical-align: middle;	
+}
+#contact .container-fluid form textarea{
+	height: 160px;
+
+}
+#contact .container-fluid form .checkbox{
+	display: inline-block;
+	float: left;
+}
+#contact .container-fluid form .checkbox input{
+	height: 17px;
+	width: 17px;
+}
+#contact .container-fluid form .checkbox label{
+	font-size: 15px;
+	line-height: 3;
+}
+#contact .container-fluid form button{
+	float: right;
+	padding: 10px 50px;
+	color: white;
+	border-color: #15a4fa;
+}
+/* contact section ends */
+
+/* footer section starts */
+
+#footer{
+	padding: 25px 0;
+}
+#footer .container .row .col-md-6 span {
+	font-size: 15px;
+	line-height: 2.5;
+	color: #999999;
+}
+
+#footer .container .row .icons a i{
+	background: rgb(21, 164, 250);
+	color: white;
+	padding: 13px 15px;
+} 

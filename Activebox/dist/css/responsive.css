@@ -1,0 +1,226 @@
+/* for extra-large devices starts*/
+
+@media (min-width: 1200px){
+	#review .row .left img{
+		width: 100%;
+	}
+	#review .row .right{
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	#review .row .right .review{
+		font-size: 32px;
+		padding-right: 200px;
+		padding-left: 50px;
+		line-height: 1.2;
+	}
+	#review .row .right .r_name{
+		padding-left: 50px;
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+}
+/* for extra-large devices ends */
+
+/* for large devices starts */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+	#review .row .left img{
+		width: 100%;
+	}
+	#review .row .right{
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	#review .row .right .review{
+		font-size: 30px;
+		padding-right: 50px;
+		padding-left: 30px;
+		line-height: 1.2;
+	}
+	#review .row .right .r_name{
+		padding-left: 30px;
+		font-size: 13px;
+		font-weight: bold;
+	}
+}
+
+/* for large devices ends */
+
+
+/* for medium divices starts*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	#header .banner{
+		padding-top: 100px;
+		padding-bottom: 75px;
+	}
+
+	#header .banner h3{
+		font-size: 45px;
+	}
+	#header .banner p{
+		font-size: 16px;
+	}
+	#header .banner button{
+		padding: 5px 20px;		
+		margin-top: 40px;
+	}
+	#features .container .row .col-md-4{
+		transform: scale(0.8);
+	}
+	#features .container{
+		padding-top: 25px;
+		padding-bottom: 60px;
+	}
+	#members .container .col-md-3{
+		transform: scale(0.8);
+	}
+	#review .row .right{
+		padding-top: 24px;
+		padding-bottom: 10px;
+	}
+	#review .row .right .review{
+		padding-left: 27px;
+		font-size: 25px;
+		padding-right: 50px;		
+	}
+	#review .row .right .r_name{
+		font-size: 11px;
+	}
+	#download button{
+		padding: 10px 40px;	
+	}
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.footer .row .col-md-4{
+		transform: scale(0.9);
+	}
+}
+/* for medium divices ends*/
+
+/* for small divices starts*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	#header .banner{
+		padding-top: 70px;
+		padding-bottom: 45px;
+	}
+
+	#header .banner h3{
+		font-size: 35px;
+	}
+	#header .banner p{
+		font-size: 12px;
+	}
+	#header .banner button{
+		transform: scale(0.8);
+		padding: 5px 20px;		
+		margin-top: 30px;
+	}
+	#features .container .col-sm-6{
+		transform: scale(0.8);
+	}
+	#members .container .col-sm-6{
+		transform: scale(0.8);
+	}
+	#review .row .right{
+		padding-top: 50px;
+	}
+	#review .row .right .review{
+		font-size: 35px;
+		padding-right: 50px;		
+	}
+	#download h3{
+		font-size: 22px;
+	}
+	#download button{
+		padding: 10px 40px;	
+	}
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.footer .row .col-md-4{
+		padding: 20px 150px;
+	}
+}
+/* for small divices ends*/
+
+/* for extra-small divices starts*/
+
+
+@media (max-width: 575.98px){
+	.navbar-brand{
+		margin: 0 auto;
+	}
+	.navbar-toggler{
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#header .banner{
+		padding-top: 80px;
+		padding-bottom: 65px;
+	}
+
+	#header .banner h3{
+		font-size: 25px;
+	}
+	#header .banner p{
+		padding: 0 40px;
+		font-size: 10px;
+	}
+	#header .banner button{
+		transform: scale(0.6);
+		padding: 5px 20px;		
+		margin-top: 40px;
+	}
+	#features .container .row .col-md-4{
+		transform: scale(0.8);
+	}
+	#features .container{
+		padding-top: 25px;
+		padding-bottom: 30px;
+	}
+	#gellary{
+		display: none;
+	}
+	#gallery_carousel{
+		display: block;
+	}
+	#members .container .col-md-3{
+		margin-left: 10px;
+		padding-bottom: 50px;
+		transform: scale(0.8);
+	}
+	#review .row .right{
+		padding-top: 36px;
+	}
+	#review .row .right .review{
+		font-size: 25px;
+		padding-right: 50px;		
+	}
+	#review .row .right .r_name{
+		font-size: 11px;
+	}
+	#download h3{
+		font-size: 25px;
+	}
+	#download button{
+		padding: 10px 40px;	
+	}
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.footer .row .col-md-4{
+		transform: scale(0.6);
+	}
+}
+/* for extra-small divices ends*/
